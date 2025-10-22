@@ -20,7 +20,7 @@ const SecondVideo = () => {
             }
         })
 
-        videoRef.current.onloadedmetadeta = () => {
+        videoRef.current.onloadedmetadata = () => {
             tl.to('.lucia', {
                 opacity: 1, duration: 1, ease: 'power1.inOut'
             })
