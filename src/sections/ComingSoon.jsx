@@ -3,7 +3,7 @@ import React from 'react'
 const ComingSoon = () => {
     return (
         <section className='entrance-message'>
-            <div className="h-full col-center gap-2">
+            <div className="h-full col-center gap-10">
                 <img
                     src="/images/logo.webp"
                     alt="logo"
